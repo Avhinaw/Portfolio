@@ -27,6 +27,7 @@
 }
 #wrapper {
   height: 100vh;
+  width: 100vw;
   overflow-x: hidden;
   overflow-y: auto;
 }
@@ -239,16 +240,17 @@ a {
   background-image: url(./assets/weatherapp.png);
 }
 #project2 {
-  background-image: url(./assets/password-gen.png);
+  background-image: url(./assets/obysClone.png);
 }
 #project3 {
-  background-image: url(assets/asset\ 31.png);
+  background-image: url(./assets/password-gen.png);
 }
 #project4 {
-  background-image: url(assets/asset\ 32.png);
+  background-image: url(./assets/premier.png);
 }
 .project-card {
-  width: 90%;
+  width: 80%;
+  margin: 2rem 8rem;
   height: 570px;
   background-size: cover;
   position: relative;
@@ -284,7 +286,7 @@ a {
   transform: scaleX(1);
 }
 .project-card-right {
-  right: -7rem;
+  right: -8rem;
 }
 .project-no {
   z-index: 1;
@@ -352,6 +354,7 @@ a {
   display: flex;
   gap: 2rem;
   height: 100vh;
+  position: relative;
 }
 .tech-head {
   font-size: 3rem;
@@ -378,6 +381,7 @@ a {
   row-gap: 2rem;
   height: 500px;
   column-gap: 2rem;
+  position: relative;
 }
 .bg-tech {
   position: absolute;
@@ -394,8 +398,8 @@ a {
 }
 .fade-tech {
   position: absolute;
-  top: 291rem;
-  left: 68rem;
+  top: 32rem;
+  left: 55rem;
   font-size: 11rem;
 }
 .contact-sec {
@@ -483,4 +487,240 @@ a {
   font-weight: 400;
 }
 
+.foot-icon{
+  font-size: 2.2rem;
+  color: white;
+  margin-right: 10px;
+}
+.foot-icon:hover{
+  color: rgb(0, 0, 0);
+}
 
+
+@media (max-width: 650px) {
+  
+  .buttonn {
+    background-color: red;
+    width: 8rem;
+    text-align: center;
+    margin: 0;
+    padding: 1rem;
+    cursor: pointer;
+    color: white;
+  }
+  .m-button{
+    margin-top: 10px !important;
+  }
+  .container {
+    width: 80vw;
+    margin: 0 auto;
+  }
+  .logo-img {
+    font-size: 1.2rem;
+  }
+  .nav-items {
+    display: none;
+  }
+  .hero-section {
+    flex-direction: column;
+    gap: 0rem;
+    margin: 3rem auto;
+    padding: 0;
+    padding-bottom: 2rem;
+  }
+
+  .fadded-text {
+    font-size: 2.8rem;
+    bottom: -15%;
+    left: -11%;
+  }
+  .hero-section-subhead {
+    font-size: 2.4rem;
+    height: 15vh;
+  }
+  .hero-section-content {
+    margin: 0;
+    width: 100%;
+  }
+
+  .hero-right {
+    margin-top: 70px;
+  }
+  .hero-left {
+    gap: 0rem;
+  }
+  .buttonn{
+    margin-top: 0px;
+  }
+  .user-img {
+    padding: 1.5rem;
+    filter: grayscale(1);
+  }
+  .imgt {
+    width: 17rem;
+  }
+
+
+
+
+/* seek */
+
+  .project-sec {
+    margin-top: 7rem;
+  }
+  .project-head {
+    padding-top: 20px;
+    font-size: 4rem;
+  }
+  .project-container {
+    padding: 3rem 0;
+    gap: 50px;
+  }
+  .project-card {
+    width: 95%;
+    margin: 0 auto;
+    height: 80vh;
+  }
+  .project-card-right {
+    right: -0rem;
+  }
+  .project-no {
+    display: none;
+  }
+  .project-no-left {
+    left: 0rem;
+  }
+  .project-no-right {
+    right: 0rem;
+  }
+  .project-content {
+    margin: 0;
+    gap: 1.5rem;
+    z-index: 1;
+    padding: 2rem 1rem;
+    justify-content: center;
+  }
+  .project-content-left {
+    left: 0%;
+    justify-content: center;
+  }
+  .project-content-right {
+    top: 0rem;
+    right: 0%;
+    
+  }
+  .project-heading {
+    font-size: 2rem;
+  }
+  .project-subheading {
+    font-size: .9rem;
+    font-style: italic;
+    width: 300px;
+  }
+  .project-skills {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  .project-img {
+    width: 3.5rem;
+  }
+  .but-icon {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 1rem;
+    cursor: pointer;
+  }
+  .icon-plus{
+    display: none;
+  }
+
+
+/* seeek */
+
+
+
+
+  .tech-stack {
+    margin-top: 2rem;
+    height: 100%;
+    flex-direction: column;
+  }
+  .tech-head {
+    font-size: 2.5rem;
+    line-height: 2rem;
+  }
+  .capM {
+    font-size: 2.4rem;
+    margin-right: -.8rem;
+  }
+  .tech-content {
+    width: 100%;
+    margin-top: 2rem;
+    gap: .8rem;
+  }
+
+  .tech-stack-right {
+    row-gap: 0.5rem;
+    height: 40vh;
+    column-gap: 0.5rem;
+  }
+  .bg-tech {
+    right: 10rem;
+    width: 20rem;
+  }
+  .tech-img {
+    width: 45px;
+  }
+  .fade-tech {
+    top: 59%;
+    left: 12rem;
+    z-index: -1;
+    height: 8vh;
+    font-size: 3.4rem;
+  }
+  .contact-head {
+    font-size: 3rem;
+    padding-top: 2rem;
+  }
+  .contact-subhead{
+    margin-left: 0rem;
+    font-size: 2rem;
+  }
+  .from-field{
+    gap: 1.5rem;
+    width: 100%;
+  }
+  .field-hei{
+    height: 50px;
+  }
+  .field {
+    margin-left: 0rem;
+    font-size: 1rem;
+    padding: 1rem 1.5rem;
+  }
+  .contact-button{
+    width: 12rem;
+    height: 4.5rem;
+    margin-left: 0rem;
+  }
+  .icon-sendmessage{
+    font-size:1.9rem;
+  }
+  .footer{
+    height: 8rem;
+    background-color: #343d68;
+    color: white;
+  }
+  .foot-items{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    padding-top:  3rem;
+  }
+
+}
