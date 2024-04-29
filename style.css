@@ -11,18 +11,20 @@
   position: absolute;
 }
 .buttonn {
-  background-color: red;
+  background-color: rgb(73, 185, 166);
   width: 8rem;
   text-align: center;
   padding: 1rem;
   cursor: pointer;
   color: white;
+  border-radius: 8px;
+  margin-right: 10px;
 }
 .buttonn:hover {
   width: 9rem;
   color: black;
-  border: 2px solid red;
-  background-color: white;
+  /* border: 2px solid red; */
+  background-color: #e7e7e7;
   transition: all 1s;
 }
 #wrapper {
