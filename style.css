@@ -7,6 +7,9 @@
   text-decoration: none;
   font-family: "Be Vietnam Pro", sans-serif;
 }
+html {
+  scroll-behavior: smooth;
+}
 .absolute {
   position: absolute;
 }
@@ -502,7 +505,6 @@ a {
 @media (max-width: 650px) {
   
   .buttonn {
-    background-color: red;
     width: 8rem;
     text-align: center;
     margin: 0;
@@ -541,7 +543,7 @@ a {
     height: 15vh;
   }
   .hero-section-content {
-    margin: 0;
+    margin-bottom: 40px;
     width: 100%;
   }
 
