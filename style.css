@@ -480,6 +480,9 @@ a {
   display: flex;
   gap: 15px;
 }
+.foot-item1 a{
+  color: white;
+}
 .foot-item2{
   display: flex;
 }
